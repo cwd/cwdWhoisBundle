@@ -1,0 +1,26 @@
+{
+  "name": "cwd/whois-bundle",
+  "version": "0.0.1-alpha",
+  "description": "",
+  "keywords": ["symfony", "bundle"],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ludwig Ruderstaller",
+      "email": "lr@cwd.at",
+      "homepage": "http://www.cwd.at"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "symfony/framework-bundle": ">2.3.0",
+    "symfony/symfony": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Cwd\\WhoisBundle": ""
+    }
+  },
+  "target-dir": "Cwd/WhoisBundle"
+}
